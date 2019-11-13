@@ -1,6 +1,13 @@
 # Black Beauty Theme
 A store theme made for the 2019 VTEX Hackatheme
 
+Participante:
+- Beatriz Silva
+- Gabriel Vincent
+- Lucas Suzano
+- Lucas Bacic
+- Pedro Alexandria
+
 ## Preview
 ![](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
 
