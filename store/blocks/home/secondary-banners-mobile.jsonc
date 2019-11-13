@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#secondary-banners-mobile": {
+      "children": ["image#bannersecondary01-mobile", "image#bannersecondary02-mobile"],
+      "props": {
+        "blockClass": "infocard",
+        "colSpacing": "equal",
+        "marginTop": 6,
+        "marginBottom": 6
+      }
+    },
+    // "flex-layout.col#infocard01-mobile": {
+    //   "children": ["info-card#banner01-mobile"],
+    //   "props": {
+      
+    //   }
+    // },
+    // "flex-layout.col#infocard02-mobile": {
+    //   "children": ["info-card#banner02-mobile"],
+    //   "props": {
+    
+    //   }
+  
+    "image#bannersecondary01-mobile": {
+      "props": { 
+        "maxWidth": "100%",
+        "src":  "https://beautytheme.vteximg.com.br/arquivos/ids/155722"
+      }
+    },
+  
+    "image#bannersecondary02-mobile": {
+      "props": { 
+        "maxWidth": "100%",
+        "src":  "https://beautytheme.vteximg.com.br/arquivos/ids/155723"
+      }
+    }
+}
+  
+    
+//     "info-card#banner01-mobile": {
+//       "props": {
+//         // "headline": "Beauty inspired by real life.",
+//         "isFullModeStyle": true,
+//         "callToActionMode": "none",
+//         "textPosition": "center",
+//         "imageUrl": "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fbeautytheme.vteximg.com.br%2Farquivos%2Fids%2F155720",
+//         "blockClass": "main1-mobile"
+//       }
+//     },
+//     "info-card#banner02-mobile": {
+//       "props": {
+//         // "headline": "SKIN FIRST",
+//         "isFullModeStyle": true,
+//         "callToActionMode": "none",
+//         "textPosition": "center",
+//         "imageUrl": "https://beautytheme.vteximg.com.br/arquivos/ids/155719",
+//         "blockClass": "main2-mobile"
+//       }
+//     }
+//   }

@@ -1,0 +1,211 @@
+.infoCardContainer--info-card-home {
+  background-color: #e3c5bd;
+}
+
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  max-width: 265px;
+}
+
+.infoCardContainer--main1 {
+  height: 760px;
+  width: 578px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.infoCardContainer--main2 {
+  height: 760px;
+  width: 578px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.infoCardContainer--info-card-home {
+  height: 599px;
+}
+
+.infoCardContainer--info-card-home button {
+  border: 0px white;
+}
+
+/* New Makeup Collection Info Cards */
+
+.infoCardContainer--new-makeup-collection {
+  height: 680px;
+  background-color: #eccab7;
+}
+
+.infoCardTextContainer--new-makeup-collection {
+  height: 680px;
+}
+
+.infoCardCallActionContainer--new-makeup-collection {
+  position: relative;
+  top: 550px;
+}
+
+.infoCardCallActionContainer--new-makeup-collection > button {
+  background-color: #272639;
+  border-radius: 0px;
+  height: 60px;
+  width: 185px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+/* .newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup input {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding-left: 0px;
+}
+
+.inputGroup input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+} */
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 640px) {
+  .infoCardContainer--main1 {
+    margin-right: 10px;
+  }
+
+  .infoCardContainer--main2 {
+    margin-left: 10px;
+  }
+
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+    padding-left: 64px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.newsletter {
+  background-color: white;
+  width: 334px;
+  height: 329px;
+}
+
+.newsletter .container {
+  padding: 32px;
+}
+
+.newsletter .label {
+  color: #272639;
+  font-family: "Playfair Display";
+}
+
+.newsletter .form {
+  width: 100%;
+  text-align: left;
+}
+
+.newsletter .buttonContainer .button {
+  background-color: #272639;
+}
+
+.newsletter .inputGroup input::placeholder {
+  color: #272639;
+  font-size: 12px;
+}
+
+.infoCardContainer--main1-mobile {
+  width: 100%;
+  height: 720px;
+}
+
+.infoCardContainer--main2-mobile {
+  width: 100%;
+  height: 720px;
+}
+
+.infoCardContainer--info-card-home-mobile {
+  max-width: 720px;
+}
+
+.autoCompleteOuterContainer > div > label > div {
+  border-bottom: solid 1px #555373;
+  color: #555373;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  background: transparent;
+  border-radius: 0px;
+}
+.autoCompleteOuterContainer > div > label > div > input {
+  background: transparent;
+}
+.autoCompleteOuterContainer > div > label > div > span {
+  background: transparent;
+}
+
+.infoCardHeadline {
+  font-size: 80px;
+  line-height: 72px;
+  color: #272639;
+  font-family: "Playfair Display";
+}

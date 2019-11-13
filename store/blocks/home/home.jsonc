@@ -1,0 +1,105 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+      //   "carousel#home",
+      //   /* You can make references to blocks defined in other files.
+      //    * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      //   "flex-layout.row#main-banners",
+      //   "shelf#home",
+      //   "flex-layout.row#secondary-banners",
+      //   "info-card#home"
+    ]
+  },
+
+  "responsive-layout.desktop": {
+    "children": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#main-banners",
+      "shelf#home",
+      "flex-layout.row#secondary-banners",
+      "info-card#home"
+    ]
+  },
+
+  "responsive-layout.mobile": {
+    "children": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#main-banners-mobile",
+      "shelf#home",
+      "flex-layout.row#secondary-banners-mobile"
+      //  "info-card#home-mobile"]
+    ]
+  },
+
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://beautytheme.vteximg.com.br/arquivos/ids/155721"
+        }
+      ],
+      "height": 740,
+      "showArrows": false,
+      "showDots": false
+    }
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "home",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "flex-layout.row#info-card-home": {
+    "children": ["info-card#home"],
+    "props": {
+      "blockClass": "info-card-home"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://beautytheme.vteximg.com.br/arquivos/ids/155739",
+      "headline": "How to take care of a black skin?",
+      "callToActionText": "LEARN MORE",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+    }
+  }
+
+  // "info-card#home-mobile": {
+  //   "props": {
+  //     "id": "info-card-home",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://beautytheme.vteximg.com.br/arquivos/ids/155726-500-auto",
+  //     "headline": "How to take care of a black skin?",
+  //     "callToActionText": "LEARN MORE",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-home-mobile",
+  //     "textAlignment": "left"
+  //   }
+  // }
+}

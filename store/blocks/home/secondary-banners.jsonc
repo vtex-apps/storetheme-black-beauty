@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#secondary-banners": {
+    "children": ["flex-layout.col#secondary-info-card-1", "flex-layout.col#secondary-info-card-2"],
+    "props": {
+      "blockClass": "infocard",
+      "colSpacing": "equal",
+      "marginTop": 6,
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.col#secondary-info-card-1": {
+    "children": ["info-card#secondary-banner-1"],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#secondary-info-card-2": {
+    "children": ["info-card#secondary-banner-2"],
+    "props": {
+      "horizontalAlign": "left"
+    }
+  },
+  "info-card#secondary-banner-1": {
+    "props": {
+      // "headline": "Beauty inspired by real life.",
+      "isFullModeStyle": true,
+      "callToActionMode": "none",
+      "textPosition": "center",
+      "imageUrl": "https://beautytheme.vteximg.com.br/arquivos/ids/155722",
+      "blockClass": "main1"
+    }
+  },
+  "info-card#secondary-banner-2": {
+    "props": {
+      // "headline": "SKIN FIRST",
+      "isFullModeStyle": true,
+      "callToActionMode": "none",
+      "textPosition": "center",
+      "imageUrl": "https://beautytheme.vteximg.com.br/arquivos/ids/155723",
+      "blockClass": "main2"
+    }
+  }
+}

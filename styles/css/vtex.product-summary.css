@@ -1,0 +1,42 @@
+.container {
+  background-color: white;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nameContainer {
+  padding-top: 32px;
+  padding-bottom: 0px;
+}
+.productBrand {
+  font-size: 14px;
+}
+.productNameContainer {
+  color: #878695;
+}
+.priceContainer {
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+.buyButton > button {
+  font-size: 12px;
+  letter-spacing: 15%;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #272639;
+  border-radius: 0px;
+  width: inherit;
+}
+.buyButton > button:hover {
+  border-width: 0px 0px 4px 0px;
+  border-style: solid;
+  border-color: #878695;
+  color: #878695;
+  background-color: #fff;
+}
+.buyButton > button div {
+  padding-left: 0;
+  padding-right: 0;
+}
